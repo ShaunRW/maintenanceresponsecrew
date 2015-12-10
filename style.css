@@ -85,8 +85,8 @@ h1{margin-top:0px;font-size:2.5em;}
 
 	.header .tagline img{display:none;}
 	.header .contact{position:relative;width:100%;}
-	.header .contact .phone{width:100%;margin-bottom: 15px;}
-	.header .contact .enquiry{width:100%;}
+	.header .contact .phone{width:45%;}
+	.header .contact .enquiry{width:45%;}
 	.header .contact .details{width:100%;}
 	.header .contact .emergency{display:none;}
 
@@ -104,7 +104,7 @@ h1{margin-top:0px;font-size:2.5em;}
 }
 @media only screen and (min-width: 320px) and (max-width: 479px){
 	
-	.header img.logo{width:20%;float:left;margin:0px 40%;}
-	.header h1{width:100%;float:left;font-size:1.85em;color:navy;}
+	.header img.logo{width:20%;float:left;margin:0px 0%;}
+	.header h1{width:65%;float:left;font-size:1em;color:navy;margin:20px 0% 0% 10%;text-align: left;}
 	
 }
