@@ -11,7 +11,7 @@
 
 <html lang=en>
 	<head>
-		<meta charset=UTF-8>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 		<title><?php get_page_clean_title(); ?> &mdash;  <?php get_site_name(); ?></title>
 
@@ -23,6 +23,7 @@
 
 		<script src="<?php get_theme_url(); ?>/js/parallax.js"></script>
 		<link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="<?php get_theme_url(); ?>/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
 	</head>
 	<body>
 
@@ -45,7 +46,7 @@
 			</div>
 			<div class="navigation">
 				<div class="column-left">
-					<ul class="top-level"><li><span>MENU</span></li></ul>
+					<ul class="top-level"><li><span>☰</span></li></ul>
 					<ul class="items"><?php get_navigation(return_page_slug()); ?></ul>
 				</div>
 			</div>
