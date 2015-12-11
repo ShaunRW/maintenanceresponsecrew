@@ -22,8 +22,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 
 		<script src="<?php get_theme_url(); ?>/js/parallax.js"></script>
-		<link href="<?php get_theme_url(); ?>/style.css" rel="stylesheet" type="text/css" media="screen" />
-		<link href="<?php get_theme_url(); ?>/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="<?php get_theme_url(); ?>/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="<?php get_theme_url(); ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
 	</head>
 	<body>
 
@@ -46,7 +46,7 @@
 			</div>
 			<div class="navigation">
 				<div class="column-left">
-					<ul class="top-level"><li><span>☰</span></li></ul>
+					<ul class="top-level"><li><span><i class="fa fa-bars"></i></span></li></ul>
 					<ul class="items"><?php get_navigation(return_page_slug()); ?></ul>
 				</div>
 			</div>
